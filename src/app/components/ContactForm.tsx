@@ -28,47 +28,48 @@ export function ContactForm() {
   };
 
   return (
-    <div className="grid md:grid-cols-2 gap-12">
+    <div className="grid md:grid-cols-2 gap-6 md:gap-12 w-full">
       {/* Contact Information */}
-      <div>
-        <h2 className="text-4xl font-semibold text-slate-900 mb-6">
+      <div className="w-full overflow-hidden">
+        <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-6">
           Get in Touch
         </h2>
         <p className="text-slate-600 mb-10 text-lg leading-relaxed">
           Have questions about our properties? Our team is here to help you find
           your perfect home in the Beacon Hill area.
         </p>
-
         <div className="space-y-5">
-          <div className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100 hover:border-slate-200 transition-all">
+          <div className="flex items-center gap-4 p-3 md:p-5 bg-white rounded-2xl border border-slate-100 hover:border-slate-200 transition-all w-full">
             <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center shadow-lg shadow-amber-500/30 flex-shrink-0">
               <Phone className="w-5 h-5 text-white" />
             </div>
-            <div>
+            <div className="min-w-0 flex-1">
               <h4 className="font-semibold text-slate-900 mb-1">Phone</h4>
-              <p className="text-slate-600">(857) 832-8480</p>
+              <p className="text-slate-600 text-sm md:text-base">
+                (857) 832-8480
+              </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100 hover:border-slate-200 transition-all">
+          <div className="flex items-center gap-4 p-3 md:p-5 bg-white rounded-2xl border border-slate-100 hover:border-slate-200 transition-all w-full">
             <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center shadow-lg shadow-amber-500/30 flex-shrink-0">
               <Mail className="w-5 h-5 text-white" />
             </div>
-            <div>
+            <div className="min-w-0 flex-1">
               <h4 className="font-semibold text-slate-900 mb-1">Email</h4>
-              <p className="text-slate-600">
+              <p className="text-slate-600 break-words text-sm md:text-base">
                 mick@beaconhillpropertymanagement.com
               </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100 hover:border-slate-200 transition-all">
+          <div className="flex items-center gap-4 p-3 md:p-5 bg-white rounded-2xl border border-slate-100 hover:border-slate-200 transition-all w-full">
             <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center shadow-lg shadow-amber-500/30 flex-shrink-0">
               <MapPin className="w-5 h-5 text-white" />
             </div>
-            <div>
+            <div className="min-w-0 flex-1">
               <h4 className="font-semibold text-slate-900 mb-1">Office</h4>
-              <p className="text-slate-600">
+              <p className="text-slate-600 text-sm md:text-base">
                 100 Cambridge St Floor 14,
                 <br />
                 Boston, MA 02116
@@ -77,12 +78,11 @@ export function ContactForm() {
           </div>
         </div>
       </div>
-
       {/* Contact Form */}
-      <div className="bg-white rounded-3xl p-8 border border-slate-200/60 shadow-xl shadow-slate-200/50">
+      <div className="bg-white rounded-3xl p-4 md:p-8 border border-slate-200/60 shadow-xl shadow-slate-200/50 w-full overflow-hidden">
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <Label htmlFor="name" className="text-slate-700">
+            <Label htmlFor="name" className="text-slate-700 block mb-2">
               Name
             </Label>
             <Input
@@ -92,12 +92,12 @@ export function ContactForm() {
               onChange={handleChange}
               placeholder="Your full name"
               required
-              className="mt-2 rounded-xl border-slate-200 focus:border-amber-500 focus:ring-amber-500/20"
+              className="rounded-xl border-slate-200 focus:border-amber-500 focus:ring-amber-500/20 w-full"
             />
           </div>
 
           <div>
-            <Label htmlFor="email" className="text-slate-700">
+            <Label htmlFor="email" className="text-slate-700 block mb-2">
               Email
             </Label>
             <Input
@@ -108,12 +108,12 @@ export function ContactForm() {
               onChange={handleChange}
               placeholder="your.email@example.com"
               required
-              className="mt-2 rounded-xl border-slate-200 focus:border-amber-500 focus:ring-amber-500/20"
+              className="rounded-xl border-slate-200 focus:border-amber-500 focus:ring-amber-500/20 w-full"
             />
           </div>
 
           <div>
-            <Label htmlFor="phone" className="text-slate-700">
+            <Label htmlFor="phone" className="text-slate-700 block mb-2">
               Phone
             </Label>
             <Input
@@ -123,12 +123,12 @@ export function ContactForm() {
               value={formData.phone}
               onChange={handleChange}
               placeholder="(987) 654-3210"
-              className="mt-2 rounded-xl border-slate-200 focus:border-amber-500 focus:ring-amber-500/20"
+              className="rounded-xl border-slate-200 focus:border-amber-500 focus:ring-amber-500/20 w-full"
             />
           </div>
 
           <div>
-            <Label htmlFor="message" className="text-slate-700">
+            <Label htmlFor="message" className="text-slate-700 block mb-2">
               Message
             </Label>
             <Textarea
@@ -139,7 +139,7 @@ export function ContactForm() {
               placeholder="Tell us about your property needs..."
               required
               rows={2}
-              className="mt-2 resize-none overflow-y-auto rounded-xl border-slate-200 focus:border-amber-500 focus:ring-amber-500/20 max-h-[3rem]"
+              className="resize-none overflow-y-auto rounded-xl border-slate-200 focus:border-amber-500 focus:ring-amber-500/20 max-h-[3rem] w-full"
             />
           </div>
 

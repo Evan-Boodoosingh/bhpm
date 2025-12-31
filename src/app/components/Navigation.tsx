@@ -23,7 +23,7 @@ export function Navigation() {
             onClick={() => scrollToSection("hero")}
           >
             <img
-              src="/images/download.svg"
+              src="/bhpm/images/download.svg"
               alt="BostonHomes"
               className="w-22 h-22"
             />
@@ -101,12 +101,12 @@ export function Navigation() {
               >
                 Services
               </button>
-              <button
+              {/* <button
                 onClick={() => scrollToSection("contact")}
                 className="text-left text-slate-700 hover:text-slate-900 hover:bg-slate-100/80 rounded-xl transition-all py-3 px-4 cursor-pointer"
               >
                 Contact
-              </button>
+              </button> */}
               <Button
                 onClick={() => scrollToSection("contact")}
                 className="bg-gradient-to-br from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white rounded-xl shadow-lg shadow-amber-500/30 w-full mt-2 cursor-pointer"
