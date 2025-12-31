@@ -1,7 +1,6 @@
 
   # Property Management Web App
 
-  This is a code bundle for Property Management Web App. The original project is available at https://www.figma.com/design/EyUC4VP8YSlF8raiNpzpOk/Property-Management-Web-App.
 
   ## Running the code
 

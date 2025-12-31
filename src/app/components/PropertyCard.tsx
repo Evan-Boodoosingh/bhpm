@@ -1,6 +1,6 @@
-import { Bed, Bath, MapPin } from 'lucide-react';
-import { Card, CardContent } from './ui/card';
-import { Badge } from './ui/badge';
+import { Bed, Bath, MapPin } from "lucide-react";
+import { Card, CardContent } from "./ui/card";
+import { Badge } from "./ui/badge";
 
 interface PropertyCardProps {
   image: string;
@@ -10,7 +10,7 @@ interface PropertyCardProps {
   beds: number;
   baths: number;
   sqft: string;
-  type: 'For Rent' | 'For Sale';
+  type: "For Rent" | "For Sale";
 }
 
 export function PropertyCard({
@@ -39,7 +39,9 @@ export function PropertyCard({
       <CardContent className="p-6">
         <div className="flex items-start justify-between mb-3">
           <h3 className="font-semibold text-xl text-slate-900">{title}</h3>
-          <span className="text-amber-600 font-semibold text-xl whitespace-nowrap ml-2">{price}</span>
+          <span className="text-amber-600 font-semibold text-xl whitespace-nowrap ml-2">
+            {price}
+          </span>
         </div>
         <div className="flex items-center gap-2 text-slate-500 mb-5">
           <MapPin className="w-4 h-4" />
