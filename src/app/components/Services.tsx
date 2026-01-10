@@ -27,7 +27,7 @@ export function Services() {
           <div className="group relative overflow-hidden rounded-3xl bg-white border border-slate-200/60 hover:shadow-2xl hover:shadow-slate-900/10 transition-all duration-500 flex flex-col">
             <div className="relative h-72 overflow-hidden flex-shrink-0">
               <img
-                src="https://images.unsplash.com/photo-1741764014072-68953e93cd48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjcwNjkyNDF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://images.unsplash.com/photo-1741764014072-68953e93cd48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjcwNjkyNDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Residential Properties"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -85,7 +85,7 @@ export function Services() {
           <div className="group relative overflow-hidden rounded-3xl bg-white border border-slate-200/60 hover:shadow-2xl hover:shadow-slate-900/10 transition-all duration-500 flex flex-col">
             <div className="relative h-72 overflow-hidden flex-shrink-0">
               <img
-                src="https://images.unsplash.com/photo-1694702740570-0a31ee1525c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjcwOTI2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://images.unsplash.com/photo-1694702740570-0a31ee1525c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjcwOTI2OTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Commercial Properties"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -142,7 +142,7 @@ export function Services() {
           <div className="group relative overflow-hidden rounded-3xl bg-white border border-slate-200/60 hover:shadow-2xl hover:shadow-slate-900/10 transition-all duration-500 flex flex-col">
             <div className="relative h-72 overflow-hidden flex-shrink-0">
               <img
-                src="https://images.unsplash.com/photo-1647025980693-04e6b24a6d78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjb25zdHJ1Y3Rpb24lMjBidWlsZGluZ3xlbnwxfHx8fDE3NjcxNDQ3NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://images.unsplash.com/photo-1647025980693-04e6b24a6d78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjb25zdHJ1Y3Rpb24lMjBidWlsZGluZ3xlbnwxfHx8fDE3NjcxNDQ3NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Construction Services"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />

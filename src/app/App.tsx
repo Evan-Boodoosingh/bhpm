@@ -14,7 +14,7 @@ const properties = [
   {
     id: 1,
     image:
-      "https://images.unsplash.com/photo-1755875341359-4b8ad4b1689b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCb3N0b24lMjBicm93bnN0b25lJTIwZXh0ZXJpb3J8ZW58MXx8fHwxNzY2NTE3NDA5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "https://images.unsplash.com/photo-1755875341359-4b8ad4b1689b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCb3N0b24lMjBicm93bnN0b25lJTIwZXh0ZXJpb3J8ZW58MXx8fHwxNzY2NTE3NDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
     title: "Historic Brownstone",
     location: "Back Bay, Boston",
     price: "$4,500/mo",
@@ -26,7 +26,7 @@ const properties = [
   {
     id: 2,
     image:
-      "https://images.unsplash.com/photo-1515263487990-61b07816b324?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjY0NDU5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "https://images.unsplash.com/photo-1515263487990-61b07816b324?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjY0NDU5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     title: "Modern High-Rise",
     location: "Seaport District",
     price: "$875,000",
@@ -38,7 +38,7 @@ const properties = [
   {
     id: 3,
     image:
-      "https://images.unsplash.com/photo-1638454668466-e8dbd5462f20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjb25kbyUyMGludGVyaW9yfGVufDF8fHx8MTc2NjQ5MzgzNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "https://images.unsplash.com/photo-1638454668466-e8dbd5462f20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjb25kbyUyMGludGVyaW9yfGVufDF8fHx8MTc2NjQ5MzgzNHww&ixlib=rb-4.1.0&q=80&w=1080",
     title: "Luxury Penthouse",
     location: "Financial District",
     price: "$1.2M",
@@ -50,7 +50,7 @@ const properties = [
   {
     id: 4,
     image:
-      "https://images.unsplash.com/photo-1760518982502-a4f8064bea1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXN0b3JpYyUyMGJyaWNrJTIwdG93bmhvdXNlfGVufDF8fHx8MTc2NjUxNzQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "https://images.unsplash.com/photo-1760518982502-a4f8064bea1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXN0b3JpYyUyMGJyaWNrJTIwdG93bmhvdXNlfGVufDF8fHx8MTc2NjUxNzQxMHww&ixlib=rb-4.1.0&q=80&w=1080",
     title: "Brick Townhouse",
     location: "Beacon Hill",
     price: "$3,800/mo",
@@ -62,7 +62,7 @@ const properties = [
   {
     id: 5,
     image:
-      "https://images.unsplash.com/photo-1686325504321-736f32991021?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBsb2Z0JTIwYXBhcnRtZW50fGVufDF8fHx8MTc2NjUxNzQxMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "https://images.unsplash.com/photo-1686325504321-736f32991021?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBsb2Z0JTIwYXBhcnRtZW50fGVufDF8fHx8MTc2NjUxNzQxMXww&ixlib=rb-4.1.0&q=80&w=1080",
     title: "Contemporary Loft",
     location: "South End",
     price: "$5,200/mo",
@@ -74,7 +74,7 @@ const properties = [
   {
     id: 6,
     image:
-      "https://images.unsplash.com/photo-1515263487990-61b07816b324?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjY0NDU5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "https://images.unsplash.com/photo-1515263487990-61b07816b324?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwxfHx8fDE3NjY0NDU5MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     title: "Waterfront Condo",
     location: "Cambridge",
     price: "$950,000",

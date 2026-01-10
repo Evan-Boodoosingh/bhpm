@@ -16,7 +16,7 @@ export function Hero({ onExploreClick }: HeroProps) {
         className="absolute inset-0 z-0"
         style={{
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1611839234650-997b22bd1ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCb3N0b24lMjBza3lsaW5lJTIwd2F0ZXJmcm9udHxlbnwxfHx8fDE3NjY1MTc0MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral)",
+            "url(https://images.unsplash.com/photo-1611839234650-997b22bd1ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxCb3N0b24lMjBza3lsaW5lJTIwd2F0ZXJmcm9udHxlbnwxfHx8fDE3NjY1MTc0MTB8MA&ixlib=rb-4.1.0&q=80&w=1080)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

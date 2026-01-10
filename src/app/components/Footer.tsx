@@ -24,7 +24,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="font-semibold text-white mb-5">Quick Links</h4>
             <ul className="space-y-3">
